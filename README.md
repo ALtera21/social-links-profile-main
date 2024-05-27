@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/3d-tilting-social-links-profile-without-library-without-framework-_omAEubAos)
-- Live Site URL: [Add live site URL here](https://github.com/ALtera21/social-links-profile-main)
+- Live Site URL: [Live site URL here](https://altera21.github.io/social-links-profile-main/)
 
 ### Built with
 
