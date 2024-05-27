@@ -1,0 +1,157 @@
+@font-face {
+    font-family: VariableFont;
+    src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+:root{
+    --green : hsl(75, 94%, 57%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+@keyframes rotating-gradient{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* UTILITY CLASS */
+
+.flex{
+    display: flex;
+}
+
+.flex.justify-content-center{
+    justify-content: center;
+}
+
+.flex.align-items-center{
+    align-items: center;
+}
+
+.flex.flex-direction-column{
+    flex-direction: column;
+}
+
+.poiter-none{
+    pointer-events: none;
+}
+
+.rotate{
+    animation: rotating-gradient 10s linear infinite both;
+}
+
+/* UTILITY CLASS */
+
+
+*{
+    font-family: VariableFont;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--off-black);
+    min-height: 100vh;
+}
+
+.background{
+    background-image: conic-gradient(var(--off-black), white);
+    border-radius: 50%;
+
+    position: fixed;
+    z-index: 0;
+
+    width: 70rem;
+    min-height: 70rem;
+}
+
+.gone-link{
+    height: 10%;
+    margin: 0;
+}
+
+.profile-card{
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 31, 0.3);
+    backdrop-filter: blur(20px);
+
+    border-radius: 10px;
+    padding: 2rem;
+    width: 25rem;
+    height: 40rem;
+
+    justify-content: space-between;
+    transition: 0.1s ease-in-out;
+}
+
+.profile-card:hover{
+    transition: 0.05s ease-in-out;
+    transform-style: preserve-3d;
+    transform: perspective(100rem)
+    rotateY(var(--rotateY))
+    rotateX(var(--rotateX));
+}
+
+div.pfp{
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+
+    background-image: url("assets/images/angy_cat_pfp.jpg");
+    background-size: cover;
+}
+
+.name, .location, .bio, .social-links, a, button{
+    width: 100%;
+}
+
+div.name{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+div.location{
+    margin-bottom: 1rem;
+
+    color: var(--green);
+    font-weight: 500;
+}
+
+div.bio{
+    font-weight: 300;
+}
+
+div.social-links{
+    height: 55%;
+
+    justify-content: space-between;
+}
+
+a{
+    box-sizing: border-box;
+    box-shadow: none;
+
+    height: 17%;
+}
+
+button{
+    background-color: var(--grey);
+
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+
+    font-weight: 500;
+}
+
+button:hover{
+    color: var(--green);
+    cursor: pointer;
+}
