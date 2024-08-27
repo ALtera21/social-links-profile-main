@@ -77,6 +77,10 @@ body{
     margin: 0;
 }
 
+@supports not (backdrop-filter: blur(20px)) {
+    background-color: black;
+}
+
 .profile-card{
     box-sizing: border-box;
     background-color: rgb(31, 31, 31, 0.3);
