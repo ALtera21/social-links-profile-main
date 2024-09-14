@@ -4,13 +4,15 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Frontend Mentor - Social links profile solution](#frontend-mentor---social-links-profile-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
